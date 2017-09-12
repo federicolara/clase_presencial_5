@@ -1,23 +1,26 @@
-  <!DOCTYPE html>
- <html>
+<!DOCTYPE html>
+<html>
    <head>
      <meta charset="utf-8">
-     <title>Ejercicio 2</title>
+     <title>Semáforo</title>
      <style>
-        .clase1{
-          font-size: 20px;
-      }
-      .clase2{
-           font-size: 1rem;
-        }
+       @media (max-width: 800px){
+         body{
+           background: red;
+         }
+       }
+       @media (max-width: 600px){
+         body{
+           background: yellow;
+         }
+       }
+       @media (max-width: 400px){
+         body{
+           background: green;
+       }
+     }
      </style>
    </head>
-   <body>
-     <div class="clase1">
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-       <div class="clase2">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-       </div>
-     </div>
+<body>
    </body>
-</html>
+ </html>
